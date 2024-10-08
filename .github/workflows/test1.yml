@@ -9,7 +9,15 @@ jobs:
     steps:
     - name: Hola mundoo
       run: echo "Hola mundoo"
-    
+
+    - name: touch file
+      run: echo "touch hola.txt"
+
+    - name: Set text
+      run: echo "Hola mundo" >> hola.txt   
+
+    - name: read file
+      run: cat hola.txt
   other:
     runs-on: ubuntu-latest
 
