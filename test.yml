@@ -1,0 +1,30 @@
+key: 'Hola mundo'
+
+person:
+  name: Yenny
+  age: 19
+  city: Medellin
+  email: yenny@gmail.com
+  phone: 3112345678
+  # lista
+  items:
+    - item1
+    - item2
+    - item3
+
+  items2:
+    - item4
+    - item5
+    - item6
+
+scripts: >
+  hola
+  adios
+  testing
+
+scripts2: |
+  hola
+  adios
+  testing
+  touch hola.txt
+  echo "Hola";
